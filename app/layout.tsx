@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "GDG Portfolio",
-  description: "Khaled Frayji is a web developer with 4 years of experience",
+  description: "Welcome to GDG On Campus LU! This portfolio workshop is brought to you by the Web Development Team, Khaled and Majed.",
   other: {
     "theme-color": "#0d1117",
     "color-scheme": "dark only",
