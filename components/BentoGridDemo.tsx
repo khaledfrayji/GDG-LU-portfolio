@@ -14,7 +14,7 @@ import {
 
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto">
+    <BentoGrid className="max-w-4xl mx-auto gap-5">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}

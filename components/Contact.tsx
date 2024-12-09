@@ -4,11 +4,11 @@ import { ImHeart } from "react-icons/im";
 const Contact = () => {
   return (
     <footer className="my-12 py-4 flex flex-col justify-between items-center ">
-      <h1 className="text-center text-lg md:text-7xl font-normal  text-white">
+      <h1 className="text-center text-3xl font-bold  text-white">
         Ready to work together?
       </h1>
 
-      <h2 className="text-white font-bold p-4 my-12 text-center">
+      <h2 className="text-white font-bold p-4 text-sm  my-12 text-center">
         Reach out to me and let's discuss how I can help you achieve your goals
       </h2>
       <Link href={"mailto:khaledfrayji7@gmail.com"} className="">
