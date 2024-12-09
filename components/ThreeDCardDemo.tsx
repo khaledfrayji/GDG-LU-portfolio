@@ -8,7 +8,8 @@ import Link from "next/link";
 const projects = [
   {
     title: "EduConnect",
-    description: "A platform connecting students with educational opportunities.",
+    description:
+      "A platform connecting students with educational opportunities.",
     link: "https://kf-educonnect.netlify.app/",
     image: "/educonnect.png",
   },
@@ -55,7 +56,7 @@ export function ThreeDCardDemo() {
               <CardItem translateZ="100" className="w-full mt-4">
                 <img
                   src={project.image}
-                 
+                  loading="lazy"
                   className="h-auto w-auto object-cover rounded-xl group-hover/card:shadow-xl"
                   alt={`${project.title} thumbnail`}
                 />
