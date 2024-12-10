@@ -35,7 +35,7 @@ const projects = [
 
 export function ThreeDCardDemo() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-between ">
+    <div className="grid grid-cols-1 sm:grid-cols-2 py-10 lg:grid-cols-3 md:gap-5 justify-between ">
       {projects.map((project, index) => (
         <Link href={project.link} key={index}>
           <CardContainer className="inter-var">
